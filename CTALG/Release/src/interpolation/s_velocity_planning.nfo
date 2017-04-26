@@ -1,0 +1,306 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern double _ZN17SVelocityPlanning11GetDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 217 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (8 times)
+
+extern void _ZN17SVelocityPlanning15GetCurveContourEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 33 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17SVelocityPlanning16ComputePhaseTimeEP11DynamicInfo() is called from 2 sites in this file.
+    It appears to be inlineable (size = 67 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17SVelocityPlanning17AdjustTimeToRoundEP11DynamicInfo() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	SVelocityPlanning::ComputePhaseTime() (1 times)
+	std::floor() (1 times)
+	std::ceil() (1 times)
+
+extern void _ZN17SVelocityPlanning17ComputePhaseSpeedEP11DynamicInfo() is called from 1 sites in this file.
+    It appears to be inlineable (size = 65 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (2 times)
+
+extern void _ZN17SVelocityPlanning17ComputeTimeLengthEP11DynamicInfo() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	SVelocityPlanning::AdjustAcceleration() (3 times)
+	pow() (8 times)
+	sqrt() (1 times)
+	SVelocityPlanning::ComputeUniformDistance() (5 times)
+
+extern double _ZN17SVelocityPlanning17GetLastPhaseSpeedEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 145 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (4 times)
+
+extern void _ZN17SVelocityPlanning18AdjustAccelerationEP11DynamicInfo() is called from 4 sites in this file.
+    It appears to be inlineable (size = 93 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	sqrt() (4 times)
+
+extern void _ZN17SVelocityPlanning19ComputePlaningParamEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	SVelocityPlanning::GetSpeed() (1 times)
+	SVelocityPlanning::GetDistance() (1 times)
+	SVelocityPlanning::ComputePlaningParam() (1 times)
+	SVelocityPlanning::GetCurveContour() (1 times)
+	SVelocityPlanning::AdjustTimeToRound() (1 times)
+	SVelocityPlanning::GetLastPhaseDistance() (1 times)
+	SVelocityPlanning::GetLastPhaseSpeed() (1 times)
+	SVelocityPlanning::ComputePhaseDistance() (1 times)
+	 ? () (1 times)
+	SVelocityPlanning::ComputePhaseSpeed() (1 times)
+	SVelocityPlanning::ComputePhaseTime() (1 times)
+	SVelocityPlanning::ComputeTimeLength() (1 times)
+	SVelocityPlanning::AdjustAcceleration() (1 times)
+
+extern void _ZN17SVelocityPlanning20ComputePhaseDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 143 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (6 times)
+
+extern double _ZN17SVelocityPlanning20GetLastPhaseDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 204 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (8 times)
+
+extern double _ZN17SVelocityPlanning22ComputeUniformDistanceEP11DynamicInfod() is called from 5 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (4 times)
+
+extern double _ZN17SVelocityPlanning8GetSpeedEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 159 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (4 times)
+
+static double _ZSt4ceild() is called from 1 sites in this file.
+    It appears to be inlineable (size = 15 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	modf() (1 times)
+
+static double _ZSt5floord() is called from 1 sites in this file.
+    It appears to be inlineable (size = 15 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	modf() (1 times)
+
+Global variable is not referenced in this file:
+	static const double UNIFORM_DIS_RATIO
+	static const double SIX_DEVIDE_ONE
+	static const double ZERO
+
+
+
+These functions may be recursive:
+	SVelocityPlanning::ComputePlaningParam()
+	SVelocityPlanning::GetDistance()
+	SVelocityPlanning::AdjustTimeToRound()
+	std::floor()
+	std::ceil()
+	SVelocityPlanning::GetLastPhaseSpeed()
+	SVelocityPlanning::ComputePhaseSpeed()
+	SVelocityPlanning::ComputeTimeLength()
+	SVelocityPlanning::AdjustAcceleration()
+	SVelocityPlanning::ComputePhaseDistance()
+	SVelocityPlanning::GetLastPhaseDistance()
+	SVelocityPlanning::ComputeUniformDistance()
+	SVelocityPlanning::GetSpeed()
+Inlineable function will be suppressed: std::floor()
+Inlineable function will be suppressed: std::ceil()
+
+Making this function inlineable: SVelocityPlanning::ComputePhaseTime()
+
+Making this function inlineable: SVelocityPlanning::ComputePhaseSpeed()
+
+Making this function inlineable: SVelocityPlanning::AdjustAcceleration()
+
+These external functions are called but not defined here:
+	modf()
+	sqrt()
+	pow()
+	 ? ()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern double _ZN17SVelocityPlanning8GetSpeedEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 159 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 25 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN17SVelocityPlanning22ComputeUniformDistanceEP11DynamicInfod() is called from 5 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 7 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN17SVelocityPlanning20GetLastPhaseDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 204 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 29 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning20ComputePhaseDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 143 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 35 memory accesses with 4 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning18AdjustAccelerationEP11DynamicInfo() is called from 4 sites in this file.
+    It appears to be inlineable (size = 93 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 29 memory accesses with 6 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning17ComputeTimeLengthEP11DynamicInfo() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	SVelocityPlanning::ComputeUniformDistance() (5 times)
+	SVelocityPlanning::AdjustAcceleration() (3 times)
+
+There are 184 memory accesses with 5966 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning16ComputePhaseTimeEP11DynamicInfo() is called from 2 sites in this file.
+    It appears to be inlineable (size = 67 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 14 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning17ComputePhaseSpeedEP11DynamicInfo() is called from 1 sites in this file.
+    It appears to be inlineable (size = 65 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 18 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern double _ZN17SVelocityPlanning17GetLastPhaseSpeedEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 145 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 22 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning17AdjustTimeToRoundEP11DynamicInfo() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	std::ceil() (1 times)
+	std::floor() (1 times)
+	SVelocityPlanning::ComputePhaseTime() (1 times)
+
+There are 65 memory accesses with 77 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning15GetCurveContourEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 33 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 16 memory accesses with 6 dependences.
+
+
+==============================================================================
+
+extern double _ZN17SVelocityPlanning11GetDistanceEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 217 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 32 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17SVelocityPlanning19ComputePlaningParamEP11DynamicInfo() is called from 0 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	SVelocityPlanning::AdjustAcceleration() (1 times)
+	SVelocityPlanning::ComputeTimeLength() (1 times)
+	SVelocityPlanning::ComputePhaseTime() (1 times)
+	SVelocityPlanning::ComputePhaseSpeed() (1 times)
+	SVelocityPlanning::ComputePhaseDistance() (1 times)
+	SVelocityPlanning::GetLastPhaseSpeed() (1 times)
+	SVelocityPlanning::GetLastPhaseDistance() (1 times)
+	SVelocityPlanning::AdjustTimeToRound() (1 times)
+	SVelocityPlanning::GetCurveContour() (1 times)
+	SVelocityPlanning::ComputePlaningParam() (1 times)
+	SVelocityPlanning::GetDistance() (1 times)
+	SVelocityPlanning::GetSpeed() (1 times)
+
+There are 62 memory accesses with 38 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

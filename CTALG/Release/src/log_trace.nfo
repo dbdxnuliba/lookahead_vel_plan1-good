@@ -1,0 +1,128 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern void _ZN11ALGLogTrace10PrintTraceE10TraceLevel11TraceModulePcz() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	 ? () (1 times)
+	vsprintf() (1 times)
+	memset() (1 times)
+
+extern void _ZN11ALGLogTrace8PrintLogE8LogLevelPcz() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	 ? () (1 times)
+	vsprintf() (1 times)
+	memset() (1 times)
+
+extern struct LGLogTrace *_ZN11ALGLogTraceC1EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS2_E() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct LGLogTrace *_ZN11ALGLogTraceC2EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS2_E() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ALGLogTrace::ALGLogTrace() (1 times)
+
+extern void *_ZN11ALGLogTraceD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 3 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void *_ZN11ALGLogTraceD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ALGLogTrace::~ALGLogTrace() (1 times)
+
+
+These functions may be recursive:
+	ALGLogTrace::PrintTrace()
+	ALGLogTrace::PrintLog()
+
+Making this function inlineable: ALGLogTrace::~ALGLogTrace()
+
+Making this function inlineable: ALGLogTrace::ALGLogTrace()
+
+These external functions are called but not defined here:
+	memset()
+	vsprintf()
+	 ? ()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN11ALGLogTraceD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 3 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN11ALGLogTraceD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ALGLogTrace::~ALGLogTrace() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct LGLogTrace *_ZN11ALGLogTraceC1EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS2_E() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct LGLogTrace *_ZN11ALGLogTraceC2EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS2_E() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ALGLogTrace::ALGLogTrace() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN11ALGLogTrace8PrintLogE8LogLevelPcz() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 3 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN11ALGLogTrace10PrintTraceE10TraceLevel11TraceModulePcz() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 3 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

@@ -1,0 +1,565 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern enum hannelMode _ZN12AlgInterface10GetCurModeEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::GetCurMode() (1 times)
+
+extern int _ZN12AlgInterface11AddIntpDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::AddIntpData() (1 times)
+
+extern int _ZN12AlgInterface11InterpolateEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::Interpolate() (1 times)
+
+extern void _ZN12AlgInterface11SetFeedRateE9RatioTyped() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetFeedRate() (1 times)
+
+extern void _ZN12AlgInterface12SetAlgCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetCurPos() (1 times)
+	LookAhead::SetCurPos() (1 times)
+
+extern void _ZN12AlgInterface12SetHeartbeatEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetHeartbeat() (1 times)
+
+extern void _ZN12AlgInterface13SetIntpCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetCurPos() (1 times)
+
+extern int _ZN12AlgInterface14GetCurLineDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::GetCurLineData() (1 times)
+
+extern char _ZN12AlgInterface14IsLABufferFullEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::IsBufFull() (1 times)
+
+extern void _ZN12AlgInterface14SetAxisMoveCmdE12NCCCmdNumbertbddb() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetAxisMoveCmd() (1 times)
+
+extern char _ZN12AlgInterface16IsIntpBufferFullEh() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::IsBufferFull() (1 times)
+
+extern void _ZN12AlgInterface17SetRetRefPosStateEbh() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetRetRefPosState() (1 times)
+
+extern void _ZN12AlgInterface17SetSingleLineModeEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetSingleLineMode() (1 times)
+
+extern void _ZN12AlgInterface19SetOptionalStopModeEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetOptionalStopMode() (1 times)
+
+extern int _ZN12AlgInterface23InsertInterpolationDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::InsertInterpolationData() (1 times)
+
+extern int _ZN12AlgInterface4InitEPFiP8LineDataPvEPFvhdS2_EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS9_EP17NCCCTChannelStateP20ChannelRealtimeStateS2_() is called from 0 sites in this file.
+    It appears to be inlineable (size = 94 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::Init() (1 times)
+	LookAhead::LookAhead() (1 times)
+	Interpolation::Init() (1 times)
+	Interpolation::Interpolation() (1 times)
+	ALGLogTrace::PrintTrace() (1 times)
+	ALGLogTrace::ALGLogTrace() (1 times)
+	operator new () (3 times)
+
+extern void _ZN12AlgInterface5PauseEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::Pause() (1 times)
+	LookAhead::Reset() (1 times)
+
+extern void _ZN12AlgInterface5ResetEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::Reset() (1 times)
+	LookAhead::Reset() (1 times)
+
+extern int _ZN12AlgInterface7ProcessEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::Process() (1 times)
+
+extern void _ZN12AlgInterface7SetModeE11ChannelMode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::SetMode() (1 times)
+
+extern void _ZN12AlgInterface8ContinueEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::Continue() (1 times)
+
+extern char _ZN12AlgInterface8IsPausedEi() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::IsPaused() (1 times)
+
+extern unsigned short _ZN12AlgInterface9GetBufLenEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::GetBufLen() (1 times)
+
+extern char _ZN12AlgInterface9IsStoppedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Interpolation::IsStopped() (1 times)
+
+extern struct lgInterface *_ZN12AlgInterfaceC1EiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct lgInterface *_ZN12AlgInterfaceC2EiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	AlgInterface::AlgInterface() (1 times)
+
+extern void *_ZN12AlgInterfaceD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 3 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void *_ZN12AlgInterfaceD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	AlgInterface::~AlgInterface() (1 times)
+
+Global variable is not referenced in this file:
+	static const int NCC_DATA_PACKAGE_HEADER_SIZE
+	static const int DATA_PACKAGE_SIZE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	AlgInterface::GetCurMode()
+	AlgInterface::AddIntpData()
+	AlgInterface::Interpolate()
+	AlgInterface::SetFeedRate()
+	AlgInterface::SetAlgCurPos()
+	AlgInterface::SetHeartbeat()
+	AlgInterface::SetIntpCurPos()
+	AlgInterface::GetCurLineData()
+	AlgInterface::IsLABufferFull()
+	AlgInterface::SetAxisMoveCmd()
+	AlgInterface::IsIntpBufferFull()
+	AlgInterface::SetRetRefPosState()
+	AlgInterface::SetSingleLineMode()
+	AlgInterface::SetOptionalStopMode()
+	AlgInterface::InsertInterpolationData()
+	AlgInterface::Init()
+	AlgInterface::Pause()
+	AlgInterface::Reset()
+	AlgInterface::Process()
+	AlgInterface::SetMode()
+	AlgInterface::Continue()
+	AlgInterface::IsPaused()
+	AlgInterface::GetBufLen()
+	AlgInterface::IsStopped()
+
+Making this function inlineable: AlgInterface::~AlgInterface()
+
+Making this function inlineable: AlgInterface::AlgInterface()
+
+These external functions are called but not defined here:
+	Interpolation::IsStopped()
+	Interpolation::GetBufLen()
+	Interpolation::IsPaused()
+	Interpolation::Continue()
+	Interpolation::SetMode()
+	LookAhead::Process()
+	Interpolation::Reset()
+	LookAhead::Reset()
+	Interpolation::Pause()
+	operator new ()
+	ALGLogTrace::ALGLogTrace()
+	ALGLogTrace::PrintTrace()
+	Interpolation::Interpolation()
+	Interpolation::Init()
+	LookAhead::LookAhead()
+	LookAhead::Init()
+	Interpolation::InsertInterpolationData()
+	Interpolation::SetOptionalStopMode()
+	Interpolation::SetSingleLineMode()
+	Interpolation::SetRetRefPosState()
+	Interpolation::IsBufferFull()
+	Interpolation::SetAxisMoveCmd()
+	LookAhead::IsBufFull()
+	Interpolation::GetCurLineData()
+	Interpolation::SetHeartbeat()
+	LookAhead::SetCurPos()
+	Interpolation::SetCurPos()
+	Interpolation::SetFeedRate()
+	Interpolation::Interpolate()
+	Interpolation::AddIntpData()
+	Interpolation::GetCurMode()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN12AlgInterfaceD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 3 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN12AlgInterfaceD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	AlgInterface::~AlgInterface() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct lgInterface *_ZN12AlgInterfaceC1EiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct lgInterface *_ZN12AlgInterfaceC2EiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	AlgInterface::AlgInterface() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN12AlgInterface9IsStoppedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern unsigned short _ZN12AlgInterface9GetBufLenEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN12AlgInterface8IsPausedEi() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface8ContinueEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface7SetModeE11ChannelMode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface7ProcessEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface5ResetEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface5PauseEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface4InitEPFiP8LineDataPvEPFvhdS2_EPFv10TraceLevel11TraceModulePcEPFv8LogLevelS9_EP17NCCCTChannelStateP20ChannelRealtimeStateS2_() is called from 0 sites in this file.
+    It appears to be inlineable (size = 94 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 10 memory accesses with 4 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface23InsertInterpolationDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface19SetOptionalStopModeEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface17SetSingleLineModeEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface17SetRetRefPosStateEbh() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN12AlgInterface16IsIntpBufferFullEh() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface14SetAxisMoveCmdE12NCCCmdNumbertbddb() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN12AlgInterface14IsLABufferFullEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface14GetCurLineDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface13SetIntpCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface12SetHeartbeatEb() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface12SetAlgCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN12AlgInterface11SetFeedRateE9RatioTyped() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface11InterpolateEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN12AlgInterface11AddIntpDataEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern enum hannelMode _ZN12AlgInterface10GetCurModeEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

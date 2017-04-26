@@ -1,0 +1,1370 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+static struct i_sysbios_gates_GateHwi_Object *_Z31ti_sysbios_gates_GateHwi_createPK31ti_sysbios_gates_GateHwi_ParamsP23xdc_runtime_Error_Block() is called from 1 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_Object__create__S() (1 times)
+
+static void _Z31ti_sysbios_gates_GateHwi_deletePP31ti_sysbios_gates_GateHwi_Object() is called from 1 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_Object__delete__S() (1 times)
+
+static void _Z36ti_sysbios_gates_GateHwi_Params_initP31ti_sysbios_gates_GateHwi_Params() is called from 1 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_Params__init__S() (1 times)
+
+extern struct ineData *_ZN14CircularBufferI8LineDataE11ReadDataPtrEs() is called from 17 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern void _ZN14CircularBufferI8LineDataE4NextEv() is called from 4 sites in this file.
+    It appears to be inlineable (size = 39 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern int _ZN14CircularBufferI8LineDataE6BufLenEv() is called from 5 sites in this file.
+    It appears to be inlineable (size = 11 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern void _ZN14CircularBufferI8LineDataE8ClearBufEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 15 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern int _ZN14CircularBufferI8LineDataE9WriteDataEPKS0_i() is called from 1 sites in this file.
+    It appears to be inlineable (size = 124 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	memcpy() (4 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern struct Z14CircularBufferI8LineDataE *_ZN14CircularBufferI8LineDataEC1Ei() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_create() (1 times)
+	ti_sysbios_gates_GateHwi_Params_init() (1 times)
+	memset() (1 times)
+	__cxa_vec_new() (1 times)
+
+extern struct Z14CircularBufferI8LineDataE *_ZN14CircularBufferI8LineDataEC2Ei() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::CircularBuffer() (1 times)
+
+extern void *_ZN14CircularBufferI8LineDataED1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 15 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_delete() (1 times)
+	__cxa_vec_delete() (1 times)
+
+extern void *_ZN14CircularBufferI8LineDataED2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::~CircularBuffer() (1 times)
+
+extern struct ineData *_ZN8LineDataC1Ev() is called from 3 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ParaEntry::ParaEntry() (1 times)
+	MCommands::MCommands() (1 times)
+	ExtraMovData::ExtraMovData() (1 times)
+	AxisMovData::AxisMovData() (1 times)
+	SpindleInfo::SpindleInfo() (1 times)
+	FeedInfo::FeedInfo() (1 times)
+	AxisDataMode::AxisDataMode() (1 times)
+	CoordInfo::CoordInfo() (1 times)
+
+extern struct ineData *_ZN8LineDataC2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineData::LineData() (1 times)
+
+extern double _ZN9LookAhead10AngleSpeedEPK8LineDataPS0_() is called from 2 sites in this file.
+    It has 13 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	sin() (1 times)
+	acos() (1 times)
+	LookAhead::VectorNormal() (1 times)
+	LookAhead::Get3DArcVector() (1 times)
+	LookAhead::GetArcVector() (2 times)
+	LookAhead::GetArcHeight() (1 times)
+	LookAhead::DataIsArc() (2 times)
+
+extern void _ZN9LookAhead10EndProcessEs() is called from 3 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::GetLookAheadData() (1 times)
+	LookAhead::SetEndSpeed() (1 times)
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+
+extern double _ZN9LookAhead11GetUserFeedEP8FeedInfo() is called from 2 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN9LookAhead11SetEndSpeedEP8LineDatad() is called from 9 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN9LookAhead12GetArcHeightEPK8LineDataS2_() is called from 1 sites in this file.
+    It appears to be inlineable (size = 58 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN9LookAhead12GetArcVectorEthdPKdS1_Pd() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::VectorNormal() (1 times)
+	LookAhead::DataIsClockWise() (1 times)
+
+extern char _ZN9LookAhead12VectorNormalEPd() is called from 5 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (3 times)
+	sqrt() (1 times)
+
+extern double _ZN9LookAhead13DistantCircleEPK8LineDataS2_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	pow() (3 times)
+	sqrt() (1 times)
+
+extern short _ZN9LookAhead13NormalProcessEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::ForceOneProcess() (1 times)
+	LookAhead::CalculateStopDist() (1 times)
+
+extern void _ZN9LookAhead13TransDataUnitEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 21 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (1 times)
+
+extern short _ZN9LookAhead14FillCircleDataEPK8LineDataPS0_() is called from 0 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::GetIJKAngleFromRadius() (1 times)
+	LookAhead::GetAngleFromIJK() (1 times)
+	LookAhead::GetRadiusFromIJK() (1 times)
+	LookAhead::DataIsArc() (1 times)
+
+extern void _ZN9LookAhead14Get3DArcVectorEPKdS1_S1_S1_PdS2_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::VectorNormal() (3 times)
+
+extern void _ZN9LookAhead14PrepareProcessEP8LineDataS1_() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::FillLineDataByLastPos() (1 times)
+	LineData::LineData() (1 times)
+	LookAhead::SetEndSpeed() (4 times)
+	LookAhead::AngleSpeed() (2 times)
+	LookAhead::CalcSpeed() (2 times)
+
+extern void _ZN9LookAhead15CalculateArcAccEP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 124 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	sqrt() (1 times)
+	AxisMovData::CheckMask() (1 times)
+
+extern char _ZN9LookAhead15DataIsClockWiseEt() is called from 3 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN9LookAhead15ForceOneProcessEv() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::Next() (1 times)
+	LookAhead::InsertDataToInterpolation() (1 times)
+	LookAhead::SetEndSpeed() (1 times)
+	pow() (1 times)
+	sqrt() (2 times)
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+extern short _ZN9LookAhead15GetAngleFromIJKEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	asin() (1 times)
+	LookAhead::DataIsClockWise() (1 times)
+	sqrt() (2 times)
+	pow() (4 times)
+	LookAhead::GetMidXY() (1 times)
+
+extern void _ZN9LookAhead15LookAheadHandleEv() is called from 2 sites in this file.
+    It appears to be inlineable (size = 240 units)
+    It has 6 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	LookAhead::ForceOneProcess() (1 times)
+	LookAhead::NormalProcess() (1 times)
+	LookAhead::Reset() (1 times)
+	CircularBuffer<LineData>::Next() (2 times)
+	LookAhead::InsertDataToInterpolation() (2 times)
+	LookAhead::SetEndSpeed() (1 times)
+	LookAhead::EndProcess() (3 times)
+	LookAhead::GetLookAheadData() (1 times)
+	MCommands::HasCmd() (3 times)
+	LineData::NeedToStop() (1 times)
+	LookAhead::PrepareProcess() (1 times)
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+extern void _ZN9LookAhead15LookAheadThreadEPv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::LookAheadHandle() (1 times)
+
+extern void _ZN9LookAhead15SetChannelIndexEiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN9LookAhead15SetLookaheadNumEt() is called from 1 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN9LookAhead16CalculateLineAccEP8LineDataPd() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	AxisMovData::CheckMask() (2 times)
+
+extern void _ZN9LookAhead16GetLookAheadDataEsb() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::BufLen() (1 times)
+	CircularBuffer<LineData>::Next() (1 times)
+	LookAhead::InsertDataToInterpolation() (1 times)
+	LookAhead::SetEndSpeed() (2 times)
+	pow() (2 times)
+	sqrt() (2 times)
+	CircularBuffer<LineData>::ReadDataPtr() (6 times)
+
+extern short _ZN9LookAhead16GetRadiusFromIJKEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	sqrt() (3 times)
+
+extern double _ZN9LookAhead17CalculateStopDistEi() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	sqrt() (1 times)
+	CircularBuffer<LineData>::BufLen() (1 times)
+	CircularBuffer<LineData>::ReadDataPtr() (2 times)
+
+extern void _ZN9LookAhead20FillLineDataByCurPosEP8LineData() is called from 1 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	memcpy() (1 times)
+
+extern void _ZN9LookAhead21FillLineDataByLastPosEP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 46 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::FillLineDataByCurPos() (1 times)
+	memcpy() (1 times)
+
+extern short _ZN9LookAhead21GetIJKAngleFromRadiusEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	pow() (1 times)
+	asin() (1 times)
+	LookAhead::DataIsClockWise() (1 times)
+	cos() (1 times)
+	sin() (1 times)
+	atan() (1 times)
+	sqrt() (2 times)
+	LookAhead::GetMidXY() (1 times)
+
+extern void _ZN9LookAhead25InsertDataToInterpolationEP8LineData() is called from 4 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	memcpy() (1 times)
+	Interpolation::InsertInterpolationData() (1 times)
+
+extern short _ZN9LookAhead4InitEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 50 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::Reset() (1 times)
+	operator new[] () (2 times)
+	CircularBuffer<LineData>::CircularBuffer() (1 times)
+	operator new () (1 times)
+
+extern void _ZN9LookAhead5ResetEv() is called from 2 sites in this file.
+    It appears to be inlineable (size = 101 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::ClearBuf() (1 times)
+	LookAhead::SetLookaheadNum() (1 times)
+
+extern double _ZN9LookAhead5v_minEiz() is called from 2 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN9LookAhead7DistantEPK8LineData() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::Distant() (1 times)
+	LookAhead::FillLineDataByLastPos() (1 times)
+	LineData::LineData() (1 times)
+
+extern double _ZN9LookAhead7DistantEPK8LineDataS2_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::DistantCircle() (1 times)
+	LookAhead::DataIsArc() (1 times)
+	pow() (6 times)
+	sqrt() (2 times)
+
+extern short _ZN9LookAhead7ProcessEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 252 units)
+    It has 6 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::LookAheadHandle() (1 times)
+	CircularBuffer<LineData>::WriteData() (1 times)
+	AxisMovData::CheckMask() (1 times)
+	LookAhead::CalculateLineAcc() (1 times)
+	LookAhead::CalculateArcAcc() (2 times)
+	MCommands::HasCmd() (1 times)
+
+extern void _ZN9LookAhead8GetMidXYEPK8LineDataS2_PdS3_S3_() is called from 2 sites in this file.
+    It appears to be inlineable (size = 120 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN9LookAhead9CalcSpeedEP8LineData() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	sqrt() (2 times)
+	LookAhead::GetUserFeed() (2 times)
+	LookAhead::v_min() (2 times)
+	LookAhead::DataIsArc() (1 times)
+
+extern char _ZN9LookAhead9DataIsArcEt() is called from 6 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern char _ZN9LookAhead9IsBufFullEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+extern void _ZN9LookAhead9SetCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct ookAhead *_ZN9LookAheadC1EP13InterpolationtP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 1 sites in this file.
+    It appears to be inlineable (size = 21 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::Init() (1 times)
+	LookAhead::SetChannelIndex() (1 times)
+	AxisMovData::AxisMovData() (1 times)
+
+extern struct ookAhead *_ZN9LookAheadC2EP13InterpolationtP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 0 sites in this file.
+    It appears to be inlineable (size = 12 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::LookAhead() (1 times)
+
+extern void *_ZN9LookAheadD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 29 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete[] () (2 times)
+	CircularBuffer<LineData>::~CircularBuffer() (1 times)
+	operator delete () (1 times)
+
+extern void *_ZN9LookAheadD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::~LookAhead() (1 times)
+
+Global variable is not referenced in this file:
+	static const double CYCLE_POWER
+	static const double ZERO
+	static const int MAX_POT_NUM
+	static const int MAX_TOOL_NUM
+	static const int NCC_DATA_PACKAGE_HEADER_SIZE
+	static const int DATA_PACKAGE_SIZE
+	static const int SCREW_COMP_TABLE_MAX_LEN
+	static const int G_CODE_GROUP_NUM
+	static const int MAX_FILE_NAME_LEN
+	static const int PAUSE_VALID_NUM
+	static const int RESET_VALID_NUM
+	static const double TWO_PI
+	static const double PI
+	static const int MAX_EXTRA_DATA_NUMBER
+	static const int MAX_M_PER_LINE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	CircularBuffer<LineData>::CircularBuffer [subobject]()
+	CircularBuffer<LineData>::~CircularBuffer [subobject]()
+	LineData::LineData [subobject]()
+	LookAhead::FillCircleData()
+	LookAhead::GetAngleFromIJK()
+	LookAhead::LookAheadThread()
+	LookAhead::GetRadiusFromIJK()
+	LookAhead::GetIJKAngleFromRadius()
+	LookAhead::Distant()
+	LookAhead::Distant()
+	LookAhead::DistantCircle()
+	LookAhead::Process()
+	LookAhead::LookAheadHandle()
+	LookAhead::NormalProcess()
+	LookAhead::ForceOneProcess()
+	LookAhead::CalculateStopDist()
+	LookAhead::EndProcess()
+	LookAhead::GetLookAheadData()
+	CircularBuffer<LineData>::Next()
+	LookAhead::InsertDataToInterpolation()
+	LookAhead::PrepareProcess()
+	LookAhead::FillLineDataByLastPos()
+	LookAhead::FillLineDataByCurPos()
+	LineData::LineData()
+	LookAhead::AngleSpeed()
+	LookAhead::Get3DArcVector()
+	LookAhead::GetArcVector()
+	LookAhead::VectorNormal()
+	CircularBuffer<LineData>::ReadDataPtr()
+	CircularBuffer<LineData>::WriteData()
+	LookAhead::CalculateLineAcc()
+	LookAhead::CalculateArcAcc()
+	LookAhead::CalcSpeed()
+	LookAhead::IsBufFull()
+	CircularBuffer<LineData>::BufLen()
+	LookAhead::LookAhead [subobject]()
+	LookAhead::LookAhead()
+	LookAhead::Init()
+	LookAhead::Reset()
+	CircularBuffer<LineData>::ClearBuf()
+	CircularBuffer<LineData>::CircularBuffer()
+	ti_sysbios_gates_GateHwi_create()
+	ti_sysbios_gates_GateHwi_Params_init()
+	LookAhead::~LookAhead [subobject]()
+	LookAhead::~LookAhead()
+	CircularBuffer<LineData>::~CircularBuffer()
+	ti_sysbios_gates_GateHwi_delete()
+
+Function _Z31ti_sysbios_gates_GateHwi_createPK31ti_sysbios_gates_GateHwi_ParamsP23xdc_runtime_Error_Block() will be specialized on these parameters:
+	[2] __eb == NULL;
+Inlineable function will be suppressed: ti_sysbios_gates_GateHwi_delete()
+Inlineable function will be suppressed: ti_sysbios_gates_GateHwi_Params_init()
+Inlineable function will be suppressed: ti_sysbios_gates_GateHwi_create()
+
+Making this function inlineable: LookAhead::SetEndSpeed()
+
+Making this function inlineable: LookAhead::GetUserFeed()
+
+Making this function inlineable: LookAhead::SetChannelIndex()
+
+Making this function inlineable: LookAhead::DataIsClockWise()
+
+Making this function inlineable: LookAhead::DataIsArc()
+
+Making this function inlineable: LookAhead::SetLookaheadNum()
+
+Making this function inlineable: LookAhead::FillLineDataByCurPos()
+
+Making this function inlineable: LookAhead::FillLineDataByLastPos()
+
+Making this function inlineable: LookAhead::GetArcHeight()
+
+Making this function inlineable: LookAhead::GetMidXY()
+
+Making this function inlineable: LookAhead::InsertDataToInterpolation()
+
+Making this function inlineable: CircularBuffer<LineData>::BufLen()
+Inlineable function will be suppressed: CircularBuffer<LineData>::BufLen()
+
+Making this function inlineable: LookAhead::LookAhead()
+
+Making this function inlineable: CircularBuffer<LineData>::ReadDataPtr()
+
+Making this function inlineable: CircularBuffer<LineData>::ClearBuf()
+Inlineable function will be suppressed: CircularBuffer<LineData>::ClearBuf()
+
+Making this function inlineable: CircularBuffer<LineData>::~CircularBuffer()
+Inlineable function will be suppressed: CircularBuffer<LineData>::~CircularBuffer()
+
+Making this function inlineable: CircularBuffer<LineData>::Next()
+Inlineable function will be suppressed: CircularBuffer<LineData>::Next()
+
+Making this function inlineable: LookAhead::EndProcess()
+
+Making this function inlineable: LookAhead::~LookAhead()
+
+Making this function inlineable: LookAhead::NormalProcess()
+
+Making this function inlineable: LookAhead::Init()
+
+Making this function inlineable: LookAhead::VectorNormal()
+
+These external functions are called but not defined here:
+	atan()
+	cos()
+	asin()
+	sqrt()
+	pow()
+	acos()
+	sin()
+	memset()
+	memcpy()
+	operator delete ()
+	operator delete[] ()
+	operator new ()
+	operator new[] ()
+	Interpolation::InsertInterpolationData()
+	LineData::NeedToStop()
+	MCommands::HasCmd()
+	AxisMovData::CheckMask()
+	CoordInfo::CoordInfo()
+	AxisDataMode::AxisDataMode()
+	FeedInfo::FeedInfo()
+	SpindleInfo::SpindleInfo()
+	AxisMovData::AxisMovData()
+	ExtraMovData::ExtraMovData()
+	MCommands::MCommands()
+	ParaEntry::ParaEntry()
+	__cxa_vec_delete()
+	__cxa_vec_new()
+	ti_sysbios_gates_GateHwi_enter__E()
+	ti_sysbios_gates_GateHwi_leave__E()
+	ti_sysbios_gates_GateHwi_Params__init__S()
+	ti_sysbios_gates_GateHwi_Object__delete__S()
+	ti_sysbios_gates_GateHwi_Object__create__S()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN9LookAheadD1Ev() is called from 1 sites in this file.
+    It appears to be inlineable (size = 29 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::~CircularBuffer() (1 times)
+
+There are 5 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern void *_ZN9LookAheadD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::~LookAhead() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15SetChannelIndexEiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct Z14CircularBufferI8LineDataE *_ZN14CircularBufferI8LineDataEC1Ei() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_Params_init() (1 times)
+	ti_sysbios_gates_GateHwi_create() (1 times)
+
+There are 7 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15SetLookaheadNumEt() is called from 1 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 3 memory accesses with 3 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead5ResetEv() is called from 2 sites in this file.
+    It appears to be inlineable (size = 101 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::SetLookaheadNum() (1 times)
+	CircularBuffer<LineData>::ClearBuf() (1 times)
+
+ADVICE: In function LookAhead::Reset()() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:72-77
+	for the statement ((double *)this)[i+8] = ((double *)(*this).m_realtime_state)[i+64]; at line 74
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    ((double *)(*this).m_realtime_state)[i+64];
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::Reset()() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:72-77
+	for the statement ((double *)this)[i+8] = ((double *)(*this).m_realtime_state)[i+64]; at line 74
+	and the statement (*this).m_vector[i] = 0.0; at line 75
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    (*this).m_vector[i];
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::Reset()() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:72-77
+	for the statement ((double *)this)[i+8] = ((double *)(*this).m_realtime_state)[i+64]; at line 74
+	and the statement (*this).m_start_point[i] = ((double *)(*this).m_realtime_state)[i+64]; at line 76
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    ((double *)(*this).m_realtime_state)[i+64];
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::Reset()() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:72-77
+	for the statement ((double *)this)[i+8] = ((double *)(*this).m_realtime_state)[i+64]; at line 74
+	and the statement (*this).m_start_point[i] = ((double *)(*this).m_realtime_state)[i+64]; at line 76
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    (*this).m_start_point[i];
+	do not access the same object in memory.
+
+There are 36 memory accesses with 67 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead4InitEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 50 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::CircularBuffer() (1 times)
+	LookAhead::Reset() (1 times)
+
+There are 10 memory accesses with 3 dependences.
+
+
+==============================================================================
+
+extern struct ookAhead *_ZN9LookAheadC1EP13InterpolationtP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 1 sites in this file.
+    It appears to be inlineable (size = 21 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::SetChannelIndex() (1 times)
+	LookAhead::Init() (1 times)
+
+There are 14 memory accesses with 7 dependences.
+
+
+==============================================================================
+
+extern struct ookAhead *_ZN9LookAheadC2EP13InterpolationtP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 0 sites in this file.
+    It appears to be inlineable (size = 12 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::LookAhead() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead9SetCurPosEtd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 3 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern char _ZN9LookAhead9IsBufFullEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 7 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+There are 4 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN9LookAhead9DataIsArcEt() is called from 6 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead5v_minEiz() is called from 2 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 4 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead11GetUserFeedEP8FeedInfo() is called from 2 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead9CalcSpeedEP8LineData() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (1 times)
+	LookAhead::v_min() (2 times)
+	LookAhead::GetUserFeed() (2 times)
+
+There are 14 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead8GetMidXYEPK8LineDataS2_PdS3_S3_() is called from 2 sites in this file.
+    It appears to be inlineable (size = 120 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 33 memory accesses with 286 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15CalculateArcAccEP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 124 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 20 memory accesses with 44 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead16CalculateLineAccEP8LineDataPd() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 55 memory accesses with 306 dependences.
+
+
+==============================================================================
+
+extern int _ZN14CircularBufferI8LineDataE9WriteDataEPKS0_i() is called from 1 sites in this file.
+    It appears to be inlineable (size = 124 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 18 memory accesses with 9 dependences.
+
+
+==============================================================================
+
+extern struct ineData *_ZN14CircularBufferI8LineDataE11ReadDataPtrEs() is called from 17 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 6 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead12GetArcHeightEPK8LineDataS2_() is called from 1 sites in this file.
+    It appears to be inlineable (size = 58 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN9LookAhead15DataIsClockWiseEt() is called from 3 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN9LookAhead12VectorNormalEPd() is called from 5 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 9 memory accesses with 6 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead12GetArcVectorEthdPKdS1_Pd() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::DataIsClockWise() (1 times)
+	LookAhead::VectorNormal() (1 times)
+
+There are 48 memory accesses with 243 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead14Get3DArcVectorEPKdS1_S1_S1_PdS2_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::VectorNormal() (3 times)
+
+There are 37 memory accesses with 57 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead10AngleSpeedEPK8LineDataPS0_() is called from 2 sites in this file.
+    It has 13 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (2 times)
+	LookAhead::GetArcHeight() (1 times)
+	LookAhead::GetArcVector() (2 times)
+	LookAhead::Get3DArcVector() (1 times)
+	LookAhead::VectorNormal() (1 times)
+
+There are 80 memory accesses with 144 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead11SetEndSpeedEP8LineDatad() is called from 9 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct ineData *_ZN8LineDataC1Ev() is called from 3 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead20FillLineDataByCurPosEP8LineData() is called from 1 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function LookAhead::FillLineDataByCurPos(LineData *)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:652-654
+	for the statement ((double *)this)[i+8] = ((double *)H$1)[i+64]; at line 653
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    ((double *)H$1)[i+64];
+	do not access the same object in memory.
+
+There are 6 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead21FillLineDataByLastPosEP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 46 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::FillLineDataByCurPos() (1 times)
+
+ADVICE: In function LookAhead::FillLineDataByLastPos(LineData *)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:661-664
+	for the statement ((double *)this)[i+8] = ((double *)(double (*)[64])(*this).m_realtime_state)[i+64]; at line 663
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues ((double *)this)[i+8];
+	and                    ((double *)(double (*)[64])(*this).m_realtime_state)[i+64];
+	do not access the same object in memory.
+
+There are 13 memory accesses with 8 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead14PrepareProcessEP8LineDataS1_() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::CalcSpeed() (2 times)
+	LookAhead::AngleSpeed() (2 times)
+	LookAhead::SetEndSpeed() (4 times)
+	LineData::LineData() (1 times)
+	LookAhead::FillLineDataByLastPos() (1 times)
+
+There are 27 memory accesses with 115 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead25InsertDataToInterpolationEP8LineData() is called from 4 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 5 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead16GetLookAheadDataEsb() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::ReadDataPtr() (6 times)
+	LookAhead::SetEndSpeed() (2 times)
+	LookAhead::InsertDataToInterpolation() (1 times)
+	CircularBuffer<LineData>::Next() (1 times)
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:458-476
+	for the statement if ( ((*pointer).interpolation_flag == 0)|((*pointer).axis_mov_data.dist < 1.00000000000000002092e-8) ) goto g12; else goto g8; at line 460
+	and the statement (*data).axis_mov_data.dist = 0.0; at line 462
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'data' as  struct ineData * restrict data
+	to assert that 'pointer' in the address of (*pointer).axis_mov_data.dist;
+	and            'data' in the address of (*data).axis_mov_data.dist;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:458-476
+	for the statement v1 = (*data).feed_info.end_feed_speed; at line 466
+	and the statement (*data).feed_info.end_feed_speed = v0; at line 461
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'data' as  struct ineData * restrict data
+	to assert that 'pointer' in the address of (*data).feed_info.end_feed_speed;
+	and            'data' in the address of (*data).feed_info.end_feed_speed;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:458-476
+	for the statement vmax = sqrt(pow(v0, 2.0)+((*data).axis_mov_data.dist+(*data).axis_mov_data.dist)*(*data).acc); at line 468
+	and the statement (*data).axis_mov_data.dist = 0.0; at line 462
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'data' as  struct ineData * restrict data
+	to assert that 'pointer' in the address of (*data).axis_mov_data.dist;
+	and            'data' in the address of (*data).axis_mov_data.dist;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:492-511
+	for the statement (*data).feed_info.end_feed_speed = v0; at line 499
+	and the statement v0 = (*data).feed_info.end_feed_speed; at line 508
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'data' as  struct ineData * restrict data
+	to assert that 'pointer' in the address of (*data).feed_info.end_feed_speed;
+	and            'data' in the address of (*data).feed_info.end_feed_speed;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:492-511
+	for the statement (*data).axis_mov_data.dist = 0.0; at line 500
+	and the statement dist_len = (*data).axis_mov_data.dist; at line 510
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'data' as  struct ineData * restrict data
+	to assert that 'pointer' in the address of (*data).axis_mov_data.dist;
+	and            'data' in the address of (*data).axis_mov_data.dist;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::GetLookAheadData(short, bool)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:528-530
+	for the statement (*this).m_dist_len = (*this).m_dist_len+(*pointer).axis_mov_data.dist; at line 529
+
+	Consider specifying option "-mt"
+	or declaring 'pointer' as struct ineData * restrict pointer
+	or declaring 'this' as  struct ookAhead * const restrict this
+	to assert that 'pointer' in the address of (*pointer).axis_mov_data.dist;
+	and            'this' in the address of (*this).m_dist_len;
+	do not access the same object in memory.
+
+There are 86 memory accesses with 523 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead10EndProcessEs() is called from 3 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+	LookAhead::SetEndSpeed() (1 times)
+	LookAhead::GetLookAheadData() (1 times)
+
+There are 13 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead17CalculateStopDistEi() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::ReadDataPtr() (2 times)
+	CircularBuffer<LineData>::BufLen() (1 times)
+
+There are 24 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15ForceOneProcessEv() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::BufLen() (1 times)
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+	LookAhead::SetEndSpeed() (1 times)
+	LookAhead::InsertDataToInterpolation() (1 times)
+	CircularBuffer<LineData>::Next() (1 times)
+
+There are 59 memory accesses with 207 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead13NormalProcessEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::CalculateStopDist() (1 times)
+	LookAhead::ForceOneProcess() (1 times)
+
+There are 5 memory accesses with 3 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15LookAheadHandleEv() is called from 2 sites in this file.
+    It appears to be inlineable (size = 240 units)
+    It has 6 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::BufLen() (1 times)
+	CircularBuffer<LineData>::ReadDataPtr() (3 times)
+	LookAhead::PrepareProcess() (1 times)
+	LookAhead::GetLookAheadData() (1 times)
+	LookAhead::EndProcess() (3 times)
+	LookAhead::SetEndSpeed() (1 times)
+	LookAhead::InsertDataToInterpolation() (2 times)
+	CircularBuffer<LineData>::Next() (2 times)
+	LookAhead::Reset() (1 times)
+	LookAhead::NormalProcess() (1 times)
+	LookAhead::ForceOneProcess() (1 times)
+
+		====== Unroll-and-jam Result Summary ======
+
+LOOP#2 in LookAhead::LookAheadHandle() fails to unroll-and-jam: Outer Loop has multiple blocks
+
+		====== End Unroll-and-jam Result ======
+
+
+ADVICE: In function LookAhead::LookAheadHandle()() in ../src/look_ahead.cpp
+	in the 'while' loop at lines ../src/look_ahead.cpp:247-361
+	for the statement (*data).feed_info.end_feed_speed = 0.0; at line 298
+	and the statement if ( (*data).axis_mov_data.dist >= (*(*this).m_pre_data).feed_info.end_feed_speed*(*(*this).m_pre_data).feed_info.end_feed_speed/((*data).acc+(*data).acc) ) goto g31; else goto g30; at line 330
+
+	Consider declaring 'data' as struct ineData * restrict data
+	to assert that lvalues (*data).feed_info.end_feed_speed;
+	and                    (*(*this).m_pre_data).feed_info.end_feed_speed;
+	do not access the same object in memory.
+
+		====== Unroll-and-jam Result Summary ======
+
+LOOP#2 in LookAhead::LookAheadHandle() fails to unroll-and-jam: Outer Loop has multiple blocks
+
+		====== End Unroll-and-jam Result ======
+
+
+There are 130 memory accesses with 1874 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead7ProcessEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 252 units)
+    It has 6 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::CalculateArcAcc() (2 times)
+	LookAhead::CalculateLineAcc() (1 times)
+	CircularBuffer<LineData>::WriteData() (1 times)
+	LookAhead::LookAheadHandle() (1 times)
+
+ADVICE: In function LookAhead::Process(LineData *)() in ../src/look_ahead.cpp
+	in the 'for' loop at lines ../src/look_ahead.cpp:142-150
+	for the statement (*this).m_tool_change_axis_move = (*this).m_tool_change_axis_move|1<<index; at line 148
+	and the statement if ( index < (*V$0).axis_number ) goto g6; else goto g10; at line 142
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues (*this).m_tool_change_axis_move;
+	and                    (*V$0).axis_number;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::Process(LineData *)() in ../src/look_ahead.cpp
+	in the 'for' loop at lines ../src/look_ahead.cpp:172-182
+	for the statement (*this).m_tool_change_axis_move = (*this).m_tool_change_axis_move&(1<<i^0xffffffff); at line 174
+	and the statement if ( i < (*(*this).m_channel_config).axis_number ) goto g22; else goto g29; at line 172
+
+	Consider declaring 'this' as struct ookAhead * const restrict this
+	to assert that lvalues (*this).m_tool_change_axis_move;
+	and                    (*(*this).m_channel_config).axis_number;
+	do not access the same object in memory.
+
+ADVICE: In function LookAhead::Process(LineData *)() in ../src/look_ahead.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/look_ahead.cpp:194-196
+	for the statement (*this).m_start_point[i] = ((double *)line_data)[i+180]; at line 195
+
+	Consider declaring 'line_data' as struct ineData * const restrict line_data
+	to assert that lvalues ((double *)line_data)[i+180];
+	and                    (*this).m_start_point[i];
+	do not access the same object in memory.
+
+There are 43 memory accesses with 176 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead13DistantCircleEPK8LineDataS2_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 12 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead7DistantEPK8LineDataS2_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (1 times)
+	LookAhead::DistantCircle() (1 times)
+
+There are 23 memory accesses with 10 dependences.
+
+
+==============================================================================
+
+extern double _ZN9LookAhead7DistantEPK8LineData() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineData::LineData() (1 times)
+	LookAhead::FillLineDataByLastPos() (1 times)
+	LookAhead::Distant() (1 times)
+
+There are 13 memory accesses with 8 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead21GetIJKAngleFromRadiusEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::GetMidXY() (1 times)
+	LookAhead::DataIsClockWise() (1 times)
+
+There are 52 memory accesses with 62 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead16GetRadiusFromIJKEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead15LookAheadThreadEPv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 5 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::LookAheadHandle() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead15GetAngleFromIJKEPK8LineDataPS0_() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::GetMidXY() (1 times)
+	LookAhead::DataIsClockWise() (1 times)
+
+There are 41 memory accesses with 35 dependences.
+
+
+==============================================================================
+
+extern short _ZN9LookAhead14FillCircleDataEPK8LineDataPS0_() is called from 0 sites in this file.
+    It appears to be inlineable (size = 40 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (1 times)
+	LookAhead::GetRadiusFromIJK() (1 times)
+	LookAhead::GetAngleFromIJK() (1 times)
+	LookAhead::GetIJKAngleFromRadius() (1 times)
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN9LookAhead13TransDataUnitEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 21 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	LookAhead::DataIsArc() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct ineData *_ZN8LineDataC2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineData::LineData() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN14CircularBufferI8LineDataED2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::~CircularBuffer() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct Z14CircularBufferI8LineDataE *_ZN14CircularBufferI8LineDataEC2Ei() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::CircularBuffer() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

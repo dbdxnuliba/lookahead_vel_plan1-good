@@ -1,0 +1,87 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern void _ZN16VelocityPlanning12PlanVelocityEP11DynamicInfo() is called from 0 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	 ? () (4 times)
+	VelocityPlanning::TrimEndSpeed() (1 times)
+
+extern void _ZN16VelocityPlanning12TrimEndSpeedEP11DynamicInfo() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	sqrt() (2 times)
+
+extern struct elocityPlanning *_ZN16VelocityPlanningC1Ed() is called from 1 sites in this file.
+    It appears to be inlineable (size = 17 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct elocityPlanning *_ZN16VelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	VelocityPlanning::VelocityPlanning() (1 times)
+
+
+These functions may be recursive:
+	VelocityPlanning::PlanVelocity()
+
+Making this function inlineable: VelocityPlanning::VelocityPlanning()
+
+These external functions are called but not defined here:
+	sqrt()
+	 ? ()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern struct elocityPlanning *_ZN16VelocityPlanningC1Ed() is called from 1 sites in this file.
+    It appears to be inlineable (size = 17 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 4 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct elocityPlanning *_ZN16VelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	VelocityPlanning::VelocityPlanning() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN16VelocityPlanning12TrimEndSpeedEP11DynamicInfo() is called from 1 sites in this file.
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	<NONE>
+
+There are 16 memory accesses with 18 dependences.
+
+
+==============================================================================
+
+extern void _ZN16VelocityPlanning12PlanVelocityEP11DynamicInfo() is called from 0 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	VelocityPlanning::TrimEndSpeed() (1 times)
+
+There are 41 memory accesses with 150 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

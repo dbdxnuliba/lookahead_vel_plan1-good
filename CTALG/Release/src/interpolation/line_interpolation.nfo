@@ -1,0 +1,214 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern void _ZN17LineInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 70 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17LineInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 52 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17LineInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17LineInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 82 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN17LineInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZN17LineInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator new[] () (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+
+extern void _ZN17LineInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete () (1 times)
+	LineInterpolation::~LineInterpolation() (1 times)
+
+extern void *_ZN17LineInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]() (1 times)
+	operator delete[] () (1 times)
+
+extern void *_ZN17LineInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineInterpolation::~LineInterpolation() (1 times)
+
+Global variable is not referenced in this file:
+	static const double ZERO
+	static const int MAX_POT_NUM
+	static const int MAX_TOOL_NUM
+	static const int SCREW_COMP_TABLE_MAX_LEN
+	static const int G_CODE_GROUP_NUM
+	static const int MAX_FILE_NAME_LEN
+	static const int PAUSE_VALID_NUM
+	static const int RESET_VALID_NUM
+	static const int MAX_EXTRA_DATA_NUMBER
+	static const int MAX_M_PER_LINE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	LineInterpolation::Init()
+	LineInterpolation::~LineInterpolation [deleting]()
+	LineInterpolation::~LineInterpolation [subobject]()
+	LineInterpolation::~LineInterpolation()
+
+These external functions are called but not defined here:
+	operator delete[] ()
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]()
+	operator delete ()
+	InterpolationAlgorithm::Init()
+	operator new[] ()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN17LineInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN17LineInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineInterpolation::~LineInterpolation() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	LineInterpolation::~LineInterpolation() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN17LineInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 4 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 27 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 3 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 82 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 14 memory accesses with 8 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 52 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function LineInterpolation::ComputePosition(double, LineData *)() in ../src/interpolation/line_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/line_interpolation.cpp:54-58
+	for the statement ((double *)data)[i+180] = ((double *)(*this).__b_22InterpolationAlgorithm.m_geometry)[i]+(*this).m_slope[i]*current_l; at line 56
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_slope[i];
+	do not access the same object in memory.
+
+ADVICE: In function LineInterpolation::ComputePosition(double, LineData *)() in ../src/interpolation/line_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/line_interpolation.cpp:54-58
+	for the statement ((double *)data)[i+180] = ((double *)(*this).__b_22InterpolationAlgorithm.m_geometry)[i]+(*this).m_slope[i]*current_l; at line 56
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)(*this).__b_22InterpolationAlgorithm.m_geometry)[i];
+	do not access the same object in memory.
+
+There are 9 memory accesses with 4 dependences.
+
+
+==============================================================================
+
+extern void _ZN17LineInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 70 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 11 memory accesses with 29 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

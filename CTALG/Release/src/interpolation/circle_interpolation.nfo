@@ -1,0 +1,498 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern double _ZN19CircleInterpolation12ComputeAngleEd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	pow() (1 times)
+	CircleInterpolation::ComputeDistance() (2 times)
+	sqrt() (2 times)
+
+extern char _ZN19CircleInterpolation14IsMiddleVectorER6VectorS1_S1_S1_() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Cross() (2 times)
+	Vector::operator *() (4 times)
+
+extern double _ZN19CircleInterpolation15ComputeDistanceEd() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	log() (1 times)
+	pow() (1 times)
+	sqrt() (1 times)
+
+extern void _ZN19CircleInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 82 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeCurveParam() (1 times)
+	CircleInterpolation::GetNormalVector() (1 times)
+
+extern void _ZN19CircleInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 118 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeArcPosition() (1 times)
+	CircleInterpolation::ComputeAngle() (1 times)
+	AxisMovData::CheckMask() (1 times)
+
+extern void _ZN19CircleInterpolation15GetNormalVectorEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 33 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN19CircleInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN19CircleInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZN19CircleInterpolation17ComputeCurveParamEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 203 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	log() (1 times)
+	sqrt() (3 times)
+	pow() (5 times)
+
+extern char _ZN19CircleInterpolation19GetMaxProjectVectorER6VectorS1_S1_() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::operator /=() (1 times)
+	Vector::Norm() (1 times)
+	Vector::operator =() (1 times)
+	Vector::operator -() (1 times)
+	Vector::operator *() (1 times)
+	Vector::operator *() (1 times)
+
+extern void _ZN19CircleInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 51 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN19CircleInterpolation23ComputeAngleBeyondLimitEd() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZN19CircleInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator new[] () (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+
+extern void _ZN19CircleInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete () (1 times)
+	CircleInterpolation::~CircleInterpolation() (1 times)
+
+extern void *_ZN19CircleInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]() (1 times)
+	operator delete[] () (1 times)
+
+extern void *_ZN19CircleInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircleInterpolation::~CircleInterpolation() (1 times)
+
+extern struct ector *_ZN6VectorC1EPd() is called from 4 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct ector *_ZN6VectorC2EPd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Vector() (1 times)
+
+extern struct ector *_ZN6VectoraSERKS_() is called from 1 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern struct ector *_ZN6VectordVEd() is called from 1 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZNK19CircleInterpolation18ComputeArcPositionEdPd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeRotaryPosition() (1 times)
+
+extern int _ZNK19CircleInterpolation21ComputeRotaryPositionEdPd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	pow() (3 times)
+	cos() (1 times)
+	sin() (1 times)
+
+extern double _ZNK6Vector4NormEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	sqrt() (1 times)
+
+extern void _ZNK6Vector5CrossERKS_() is called from 2 sites in this file.
+    It appears to be inlineable (size = 54 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Vector() (1 times)
+	Vector::operator []() (6 times)
+
+extern double _ZNK6VectorixEi() is called from 6 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZNK6VectormiERKS_() is called from 1 sites in this file.
+    It appears to be inlineable (size = 36 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Vector() (1 times)
+
+extern double _ZNK6VectormlERKS_() is called from 5 sites in this file.
+    It appears to be inlineable (size = 24 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZNK6VectormlEd() is called from 1 sites in this file.
+    It appears to be inlineable (size = 29 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Vector() (1 times)
+
+Global variable is not referenced in this file:
+	static const double ZERO
+	static const int MAX_POT_NUM
+	static const int MAX_TOOL_NUM
+	static const int SCREW_COMP_TABLE_MAX_LEN
+	static const int G_CODE_GROUP_NUM
+	static const int MAX_FILE_NAME_LEN
+	static const int PAUSE_VALID_NUM
+	static const int RESET_VALID_NUM
+	static const double TWO_PI
+	static const double PI
+	static const int MAX_EXTRA_DATA_NUMBER
+	static const int MAX_M_PER_LINE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	CircleInterpolation::ComputeGeometry()
+	CircleInterpolation::ComputePosition()
+	CircleInterpolation::ComputeAngle()
+	CircleInterpolation::ComputeDistance()
+	CircleInterpolation::ComputeCurveParam()
+	CircleInterpolation::GetMaxProjectVector()
+	CircleInterpolation::Init()
+	CircleInterpolation::~CircleInterpolation [deleting]()
+	CircleInterpolation::~CircleInterpolation [subobject]()
+	CircleInterpolation::~CircleInterpolation()
+	CircleInterpolation::ComputeArcPosition()
+	CircleInterpolation::ComputeRotaryPosition()
+	Vector::Norm()
+Inlineable function will be suppressed: Vector::operator []()
+Inlineable function will be suppressed: Vector::operator =()
+Inlineable function will be suppressed: Vector::Vector()
+Inlineable function will be suppressed: Vector::operator *()
+Inlineable function will be suppressed: Vector::operator *()
+Inlineable function will be suppressed: Vector::Norm()
+Inlineable function will be suppressed: Vector::operator /=()
+Inlineable function will be suppressed: Vector::operator -()
+Inlineable function will be suppressed: Vector::Cross()
+
+Making this function inlineable: CircleInterpolation::GetNormalVector()
+
+Making this function inlineable: CircleInterpolation::~CircleInterpolation()
+
+Making this function inlineable: CircleInterpolation::ComputeCurveParam()
+
+These external functions are called but not defined here:
+	sin()
+	cos()
+	log()
+	sqrt()
+	pow()
+	operator delete[] ()
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]()
+	operator delete ()
+	InterpolationAlgorithm::Init()
+	operator new[] ()
+	AxisMovData::CheckMask()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern int _ZNK19CircleInterpolation21ComputeRotaryPositionEdPd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 94 memory accesses with 774 dependences.
+
+
+==============================================================================
+
+extern int _ZNK19CircleInterpolation18ComputeArcPositionEdPd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeRotaryPosition() (1 times)
+
+There are 42 memory accesses with 252 dependences.
+
+
+==============================================================================
+
+extern struct ector *_ZN6VectorC2EPd() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::Vector() (1 times)
+
+There are 6 memory accesses with 9 dependences.
+
+
+==============================================================================
+
+extern void *_ZN19CircleInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN19CircleInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircleInterpolation::~CircleInterpolation() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircleInterpolation::~CircleInterpolation() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN19CircleInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 5 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern double _ZN19CircleInterpolation23ComputeAngleBeyondLimitEd() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 22 memory accesses with 14 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 51 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 13 memory accesses with 10 dependences.
+
+
+==============================================================================
+
+extern char _ZN19CircleInterpolation19GetMaxProjectVectorER6VectorS1_S1_() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::operator *() (1 times)
+	Vector::operator *() (1 times)
+	Vector::operator -() (1 times)
+	Vector::operator =() (1 times)
+	Vector::Norm() (1 times)
+	Vector::operator /=() (1 times)
+
+There are 21 memory accesses with 45 dependences.
+
+
+==============================================================================
+
+extern int _ZN19CircleInterpolation17ComputeCurveParamEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 203 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function CircleInterpolation::ComputeCurveParam()() in ../src/interpolation/circle_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/circle_interpolation.cpp:149-156
+	for the statement (*this).m_slope[i] = distance/((double *)(double (*)[12])(*(*this).__b_22InterpolationAlgorithm.m_geometry).end_data)[384]; at line 154
+
+	Consider declaring 'this' as struct ircleInterpolation * const restrict this
+	to assert that lvalues (*this).m_slope;
+	and                    (*(*this).__b_22InterpolationAlgorithm.m_geometry).end_data;
+	do not access the same object in memory.
+
+There are 60 memory accesses with 90 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 31 memory accesses with 52 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation15GetNormalVectorEv() is called from 1 sites in this file.
+    It appears to be inlineable (size = 33 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 12 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN19CircleInterpolation15ComputeDistanceEd() is called from 2 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN19CircleInterpolation12ComputeAngleEd() is called from 1 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeDistance() (2 times)
+
+There are 22 memory accesses with 4 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 118 units)
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	CircleInterpolation::ComputeAngle() (1 times)
+	CircleInterpolation::ComputeArcPosition() (1 times)
+
+ADVICE: In function CircleInterpolation::ComputePosition(double, LineData *)() in ../src/interpolation/circle_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/circle_interpolation.cpp:113-117
+	for the statement ((double *)data)[i+180] = ((double *)(double (*)[64])(*(*this).__b_22InterpolationAlgorithm.m_geometry).end_data)[i+180]; at line 115
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)(double (*)[64])(*(*this).__b_22InterpolationAlgorithm.m_geometry).end_data)[i+180];
+	do not access the same object in memory.
+
+ADVICE: In function CircleInterpolation::ComputePosition(double, LineData *)() in ../src/interpolation/circle_interpolation.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/interpolation/circle_interpolation.cpp:129-133
+	for the statement ((double *)data)[i+180] = ((double *)(double (*)[64])(*this).__b_22InterpolationAlgorithm.m_geometry)[i]+(*this).m_current_angle*(*this).m_slope[i]; at line 131
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_slope[i];
+	do not access the same object in memory.
+
+ADVICE: In function CircleInterpolation::ComputePosition(double, LineData *)() in ../src/interpolation/circle_interpolation.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/interpolation/circle_interpolation.cpp:129-133
+	for the statement ((double *)data)[i+180] = ((double *)(double (*)[64])(*this).__b_22InterpolationAlgorithm.m_geometry)[i]+(*this).m_current_angle*(*this).m_slope[i]; at line 131
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)(double (*)[64])(*this).__b_22InterpolationAlgorithm.m_geometry)[i];
+	do not access the same object in memory.
+
+There are 25 memory accesses with 13 dependences.
+
+
+==============================================================================
+
+extern void _ZN19CircleInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 82 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircleInterpolation::GetNormalVector() (1 times)
+	CircleInterpolation::ComputeCurveParam() (1 times)
+
+There are 92 memory accesses with 196 dependences.
+
+
+==============================================================================
+
+extern char _ZN19CircleInterpolation14IsMiddleVectorER6VectorS1_S1_S1_() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	Vector::operator *() (4 times)
+	Vector::Cross() (2 times)
+
+There are 18 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

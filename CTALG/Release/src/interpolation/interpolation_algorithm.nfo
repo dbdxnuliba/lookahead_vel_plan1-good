@@ -1,0 +1,651 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern int _ZN14CircularBufferI8LineDataE10InsertDataEPKS0_i() is called from 1 sites in this file.
+    It appears to be inlineable (size = 122 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	ti_sysbios_gates_GateHwi_leave__E() (1 times)
+	memcpy() (4 times)
+	ti_sysbios_gates_GateHwi_enter__E() (1 times)
+
+extern struct VelocityPlanning *_ZN17SVelocityPlanningC1Ed() is called from 2 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	VelocityPlanning::VelocityPlanning [subobject]() (1 times)
+
+extern struct VelocityPlanning *_ZN17SVelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	SVelocityPlanning::SVelocityPlanning() (1 times)
+
+extern struct VelocityPlanning *_ZN17TVelocityPlanningC1Ed() is called from 2 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	VelocityPlanning::VelocityPlanning [subobject]() (1 times)
+
+extern struct VelocityPlanning *_ZN17TVelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	TVelocityPlanning::TVelocityPlanning() (1 times)
+
+extern void _ZN22InterpolationAlgorithm11InterpolateEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 262 units)
+    It has 6 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::Interpolate() (1 times)
+	AxisMovData::CheckMask() (1 times)
+	AxisMovData::SetMask() (2 times)
+	 ? () (3 times)
+
+extern void _ZN22InterpolationAlgorithm11SaveEndDataEP14CircularBufferI8LineDataE() is called from 0 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::Interpolate() (1 times)
+	CircularBuffer<LineData>::InsertData() (1 times)
+	MCommands::Reset() (1 times)
+	 ? () (1 times)
+
+extern int _ZN22InterpolationAlgorithm12PlanVelocityEddb() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::Interpolate() (1 times)
+	VelocityPlanning::PlanVelocity() (1 times)
+	 ? () (1 times)
+
+extern char _ZN22InterpolationAlgorithm13HasReachedEndEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 31 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN22InterpolationAlgorithm15GetCurrentSpeedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22InterpolationAlgorithm15SetChannelIndexEiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22InterpolationAlgorithm19SetSpeedProfileTypeE16SpeedProfileType() is called from 1 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern char _ZN22InterpolationAlgorithm23IsInterpolationFinishedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZN22InterpolationAlgorithm4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 78 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::SetSpeedProfileType() (1 times)
+	operator new[] () (1 times)
+	TVelocityPlanning::TVelocityPlanning() (1 times)
+	SVelocityPlanning::SVelocityPlanning() (1 times)
+	operator new () (2 times)
+
+extern struct nterpolationAlgorithm *_ZN22InterpolationAlgorithmC1EP8GeometryPP11DynamicInfoiP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 1 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::SetChannelIndex() (1 times)
+
+extern struct nterpolationAlgorithm *_ZN22InterpolationAlgorithmC2EP8GeometryPP11DynamicInfoiP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 0 sites in this file.
+    It appears to be inlineable (size = 14 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::InterpolationAlgorithm() (1 times)
+
+extern void _ZN22InterpolationAlgorithmD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete () (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+extern void *_ZN22InterpolationAlgorithmD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete[] () (1 times)
+	operator delete () (2 times)
+
+extern void *_ZN22InterpolationAlgorithmD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+Global variable is not referenced in this file:
+	static const int MAX_POT_NUM
+	static const int MAX_TOOL_NUM
+	static const int G_CODE_GROUP_NUM
+	static const int MAX_FILE_NAME_LEN
+	static const int PAUSE_VALID_NUM
+	static const int RESET_VALID_NUM
+	static const int MAX_EXTRA_DATA_NUMBER
+	static const int MAX_M_PER_LINE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	SVelocityPlanning::SVelocityPlanning [subobject]()
+	TVelocityPlanning::TVelocityPlanning [subobject]()
+	InterpolationAlgorithm::SaveEndData()
+	CircularBuffer<LineData>::InsertData()
+	InterpolationAlgorithm::PlanVelocity()
+	InterpolationAlgorithm::Interpolate()
+	InterpolationAlgorithm::Init()
+	TVelocityPlanning::TVelocityPlanning()
+	SVelocityPlanning::SVelocityPlanning()
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]()
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]()
+	InterpolationAlgorithm::~InterpolationAlgorithm()
+Inlineable function will be suppressed: SVelocityPlanning::SVelocityPlanning()
+Inlineable function will be suppressed: TVelocityPlanning::TVelocityPlanning()
+
+Making this function inlineable: InterpolationAlgorithm::SetChannelIndex()
+
+Making this function inlineable: InterpolationAlgorithm::SetSpeedProfileType()
+
+Making this function inlineable: InterpolationAlgorithm::InterpolationAlgorithm()
+
+Making this function inlineable: InterpolationAlgorithm::~InterpolationAlgorithm()
+
+Making this function inlineable: CircularBuffer<LineData>::InsertData()
+Inlineable function will be suppressed: CircularBuffer<LineData>::InsertData()
+
+These external functions are called but not defined here:
+	memcpy()
+	operator delete[] ()
+	operator delete ()
+	operator new ()
+	operator new[] ()
+	VelocityPlanning::PlanVelocity()
+	MCommands::Reset()
+	 ? ()
+	AxisMovData::SetMask()
+	AxisMovData::CheckMask()
+	VelocityPlanning::VelocityPlanning [subobject]()
+	ti_sysbios_gates_GateHwi_enter__E()
+	ti_sysbios_gates_GateHwi_leave__E()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN22InterpolationAlgorithmD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 26 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 5 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern void *_ZN22InterpolationAlgorithmD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22InterpolationAlgorithmD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+There are 5 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern void _ZN22InterpolationAlgorithm15SetChannelIndexEiP18NCCCTChannelConfig() is called from 1 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct nterpolationAlgorithm *_ZN22InterpolationAlgorithmC1EP8GeometryPP11DynamicInfoiP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 1 sites in this file.
+    It appears to be inlineable (size = 45 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::SetChannelIndex() (1 times)
+
+ADVICE: In function InterpolationAlgorithm::InterpolationAlgorithm(Geometry *, DynamicInfo **, int, NCCCTChannelConfig *, ChannelRealtimeState *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:27-29
+	for the statement (*this).m_is_to_reset[i] = 0; at line 28
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::InterpolationAlgorithm(Geometry *, DynamicInfo **, int, NCCCTChannelConfig *, ChannelRealtimeState *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:27-29
+	for the statement if ( i < (*(*this).m_channel_config).axis_number ) goto g4; else goto g5; at line 27
+	and the statement (*this).m_is_to_reset[i] = 0; at line 28
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+There are 13 memory accesses with 19 dependences.
+
+
+==============================================================================
+
+extern struct nterpolationAlgorithm *_ZN22InterpolationAlgorithmC2EP8GeometryPP11DynamicInfoiP18NCCCTChannelConfigP20ChannelRealtimeState() is called from 0 sites in this file.
+    It appears to be inlineable (size = 14 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::InterpolationAlgorithm() (1 times)
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22InterpolationAlgorithm19SetSpeedProfileTypeE16SpeedProfileType() is called from 1 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 4 memory accesses with 1 dependences.
+
+
+==============================================================================
+
+extern int _ZN22InterpolationAlgorithm4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 78 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	SVelocityPlanning::SVelocityPlanning() (1 times)
+	TVelocityPlanning::TVelocityPlanning() (1 times)
+	InterpolationAlgorithm::SetSpeedProfileType() (1 times)
+
+ADVICE: In function InterpolationAlgorithm::Init(SpeedProfileType)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:55-57
+	for the statement v$1 = (*this).m_is_to_reset; at line 56
+	and the statement v$1[i] = 0; at line 56
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Init(SpeedProfileType)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:55-57
+	for the statement v$5 = (*this).m_channel_config; at line 55
+	and the statement v$1[i] = 0; at line 56
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    v$1[i];
+	do not access the same object in memory.
+
+There are 22 memory accesses with 59 dependences.
+
+
+==============================================================================
+
+extern char _ZN22InterpolationAlgorithm23IsInterpolationFinishedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 23 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 5 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN22InterpolationAlgorithm15GetCurrentSpeedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 10 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 4 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern char _ZN22InterpolationAlgorithm13HasReachedEndEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 31 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22InterpolationAlgorithm11InterpolateEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 262 units)
+    It has 6 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::Interpolate() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$7 = (*this).m_geometry; at line 215
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_geometry;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$7 = (*this).m_geometry; at line 215
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_geometry;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement ((double *)data)[i+180] = ((double *)v$5)[i]; at line 217
+	and the statement if ( ABS(((double *)data)[i+180]-((double *)v$7)[i]) > 1.00000000000000003643e-10 ) goto g19; else goto g18; at line 215
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)v$7)[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement if ( ABS(((double *)data)[i+180]-((double *)v$7)[i]) > 1.00000000000000003643e-10 ) goto g19; else goto g18; at line 215
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement if ( ABS(((double *)data)[i+180]-((double *)v$7)[i]) > 1.00000000000000003643e-10 ) goto g19; else goto g18; at line 215
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement ((double *)data)[i+180] = ((double *)v$5)[i]; at line 217
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)v$5)[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement ((double *)data)[i+180] = ((double *)v$5)[i]; at line 217
+	and the statement if ( (*v$9[v$6]).step_number > 1u ) goto g22; else goto g21; at line 220
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    v$9[v$6];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement ((double *)data)[i+180] = ((double *)v$5)[i]; at line 217
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement ((double *)data)[i+180] = ((double *)v$5)[i]; at line 217
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$6 = (int)(*this).m_trajectory_index; at line 220
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_trajectory_index;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$6 = (int)(*this).m_trajectory_index; at line 220
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_trajectory_index;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$9 = (*this).m_dynamic_info; at line 220
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_dynamic_info;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$9 = (*this).m_dynamic_info; at line 220
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_dynamic_info;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement (*this).m_is_to_reset[i] = 0; at line 225
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$8 = (*this).m_channel_config; at line 213
+	and the statement (*this).m_is_to_reset[i] = 1; at line 221
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement (*this).m_is_to_reset[i] = 1; at line 221
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_is_to_reset;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop at lines ../src/interpolation/interpolation_algorithm.cpp:213-227
+	for the statement v$8 = (*this).m_channel_config; at line 213
+	and the statement (*this).m_is_to_reset[i] = 0; at line 225
+
+	Consider declaring 'this' as struct nterpolationAlgorithm * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*this).m_is_to_reset[i];
+	do not access the same object in memory.
+
+ADVICE: In function InterpolationAlgorithm::Interpolate(LineData *)() in ../src/interpolation/interpolation_algorithm.cpp
+	in the 'for' loop with loop variable 'i' at lines ../src/interpolation/interpolation_algorithm.cpp:207-209
+	for the statement ((double *)data)[i+180] = ((double *)v$7)[i]; at line 208
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+180];
+	and                    ((double *)v$7)[i];
+	do not access the same object in memory.
+
+There are 69 memory accesses with 298 dependences.
+
+
+==============================================================================
+
+extern int _ZN22InterpolationAlgorithm12PlanVelocityEddb() is called from 0 sites in this file.
+    It has 5 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	InterpolationAlgorithm::Interpolate() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+There are 78 memory accesses with 497 dependences.
+
+
+==============================================================================
+
+extern void _ZN22InterpolationAlgorithm11SaveEndDataEP14CircularBufferI8LineDataE() is called from 0 sites in this file.
+    It appears to be inlineable (size = 19 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	CircularBuffer<LineData>::InsertData() (1 times)
+	InterpolationAlgorithm::Interpolate() (1 times)
+	InterpolationAlgorithm::PlanVelocity() (1 times)
+	InterpolationAlgorithm::HasReachedEnd() (1 times)
+	InterpolationAlgorithm::IsInterpolationFinished() (1 times)
+	InterpolationAlgorithm::GetCurrentSpeed() (1 times)
+	InterpolationAlgorithm::Init() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm [deleting]() (1 times)
+	InterpolationAlgorithm::~InterpolationAlgorithm() (1 times)
+
+There are 23 memory accesses with 40 dependences.
+
+
+==============================================================================
+
+extern struct VelocityPlanning *_ZN17TVelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	TVelocityPlanning::TVelocityPlanning() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern struct VelocityPlanning *_ZN17SVelocityPlanningC2Ed() is called from 0 sites in this file.
+    It appears to be inlineable (size = 6 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	SVelocityPlanning::SVelocityPlanning() (1 times)
+
+There are 1 memory accesses with 0 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

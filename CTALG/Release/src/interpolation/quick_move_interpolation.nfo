@@ -1,0 +1,703 @@
+TMS320C6x C/C++ Optimizer               v7.3.4
+Build Number 1MCKN-JIK27-UARAR-SAW-ZAZG_X_T_U
+
+		======File-level Analysis Summary======
+
+
+extern void _ZN22QuickMoveInterpolation11InterpolateEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 271 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+	QuickMoveInterpolation::~QuickMoveInterpolation [deleting]() (1 times)
+	QuickMoveInterpolation::Init() (1 times)
+	QuickMoveInterpolation::GetCurrentSpeed() (1 times)
+	QuickMoveInterpolation::IsInterpolationFinished() (1 times)
+	QuickMoveInterpolation::ComputeGeometry() (1 times)
+	QuickMoveInterpolation::HasReachedEnd() (1 times)
+	QuickMoveInterpolation::PlanVelocity() (1 times)
+	QuickMoveInterpolation::Interpolate() (1 times)
+	QuickMoveInterpolation::ValidateDynamic() (1 times)
+	QuickMoveInterpolation::ComputePosition() (1 times)
+	QuickMoveInterpolation::ComputeRemainDistance() (1 times)
+	QuickMoveInterpolation::ComputePosition() (1 times)
+	 ? () (2 times)
+
+extern int _ZN22QuickMoveInterpolation12PlanVelocityEddb() is called from 0 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	VelocityPlanning::PlanVelocity() (1 times)
+
+extern char _ZN22QuickMoveInterpolation13HasReachedEndEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 96 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22QuickMoveInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 93 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22QuickMoveInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 38 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	QuickMoveInterpolation::ComputePosition() (1 times)
+
+extern void _ZN22QuickMoveInterpolation15ComputePositionEdtP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 44 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern double _ZN22QuickMoveInterpolation15GetCurrentSpeedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 55 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22QuickMoveInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22QuickMoveInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void _ZN22QuickMoveInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern char _ZN22QuickMoveInterpolation23IsInterpolationFinishedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 116 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern int _ZN22QuickMoveInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 37 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator new[] () (2 times)
+	InterpolationAlgorithm::Init() (1 times)
+
+extern void _ZN22QuickMoveInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	operator delete () (1 times)
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+
+extern void *_ZN22QuickMoveInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]() (1 times)
+	operator delete[] () (2 times)
+
+extern void *_ZN22QuickMoveInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+
+Global variable is not referenced in this file:
+	static const int MAX_POT_NUM
+	static const int MAX_TOOL_NUM
+	static const int SCREW_COMP_TABLE_MAX_LEN
+	static const int G_CODE_GROUP_NUM
+	static const int MAX_FILE_NAME_LEN
+	static const int PAUSE_VALID_NUM
+	static const int RESET_VALID_NUM
+	static const int MAX_EXTRA_DATA_NUMBER
+	static const int MAX_M_PER_LINE
+	static const int MAX_AXIS_NUM
+
+
+
+These functions may be recursive:
+	QuickMoveInterpolation::Interpolate()
+	QuickMoveInterpolation::PlanVelocity()
+	QuickMoveInterpolation::Init()
+	QuickMoveInterpolation::~QuickMoveInterpolation [deleting]()
+	QuickMoveInterpolation::~QuickMoveInterpolation [subobject]()
+	QuickMoveInterpolation::~QuickMoveInterpolation()
+
+Making this function inlineable: QuickMoveInterpolation::ComputePosition()
+
+These external functions are called but not defined here:
+	operator delete[] ()
+	InterpolationAlgorithm::~InterpolationAlgorithm [subobject]()
+	operator delete ()
+	InterpolationAlgorithm::Init()
+	operator new[] ()
+	VelocityPlanning::PlanVelocity()
+	 ? ()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void *_ZN22QuickMoveInterpolationD1Ev() is called from 2 sites in this file.
+    It appears to be inlineable (size = 16 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void *_ZN22QuickMoveInterpolationD2Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolationD0Ev() is called from 0 sites in this file.
+    It appears to be inlineable (size = 8 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern int _ZN22QuickMoveInterpolation4InitE16SpeedProfileType() is called from 0 sites in this file.
+    It appears to be inlineable (size = 37 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 2 dependences.
+
+
+==============================================================================
+
+extern char _ZN22QuickMoveInterpolation23IsInterpolationFinishedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 116 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function QuickMoveInterpolation::IsInterpolationFinished()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:46-58
+	for the statement (*this).m_axis_distance[i] = 0.0; at line 55
+	and the statement (*(*v$5).end_data).axis_mov_data.mask = (*(*v$5).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 54
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*v$5).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::IsInterpolationFinished()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:46-58
+	for the statement v$3 = (*this).m_channel_config; at line 55
+	and the statement (*(*v$5).end_data).axis_mov_data.mask = (*(*v$5).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 54
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*v$5).end_data;
+	do not access the same object in memory.
+
+There are 21 memory accesses with 66 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation21ComputeRemainDistanceEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation15ValidateDynamicEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 1 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 0 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation15SetChannelIndexEiP18NCCCTChannelConfig() is called from 0 sites in this file.
+    It appears to be inlineable (size = 9 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 2 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern double _ZN22QuickMoveInterpolation15GetCurrentSpeedEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 55 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 0 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation15ComputePositionEdtP8LineData() is called from 2 sites in this file.
+    It appears to be inlineable (size = 44 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+There are 8 memory accesses with 7 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation15ComputePositionEdP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 38 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	QuickMoveInterpolation::ComputePosition() (1 times)
+
+There are 13 memory accesses with 15 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation15ComputeGeometryEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 93 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement if ( (*(*this).__b_22InterpolationAlgorithm.m_dynamic_info[i]).is_enabled ) goto g6; else goto g5; at line 65
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).__b_22InterpolationAlgorithm.m_dynamic_info;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement if ( (*(*this).__b_22InterpolationAlgorithm.m_dynamic_info[i]).is_enabled ) goto g6; else goto g5; at line 65
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).__b_22InterpolationAlgorithm.m_dynamic_info;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement v$2 = (*this).__b_22InterpolationAlgorithm.m_geometry; at line 66
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).__b_22InterpolationAlgorithm.m_geometry;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement v$2 = (*this).__b_22InterpolationAlgorithm.m_geometry; at line 66
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).__b_22InterpolationAlgorithm.m_geometry;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = -temp_dist; at line 72
+	and the statement (*(*v$1).end_data).axis_mov_data.mask = (*(*v$1).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 77
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*v$1).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 0; at line 73
+	and the statement (*(*v$1).end_data).axis_mov_data.mask = (*(*v$1).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 77
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*v$1).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = temp_dist; at line 68
+	and the statement (*(*v$1).end_data).axis_mov_data.mask = (*(*v$1).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 77
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*v$1).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 1; at line 69
+	and the statement (*(*v$1).end_data).axis_mov_data.mask = (*(*v$1).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 77
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*v$1).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement if ( i < (*(*this).m_channel_config).axis_number ) goto g4; else goto g12; at line 64
+	and the statement (*(*v$1).end_data).axis_mov_data.mask = (*(*v$1).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 77
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*v$1).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = -temp_dist; at line 72
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = -temp_dist; at line 72
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = temp_dist; at line 68
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 1; at line 69
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement if ( i < (*(*this).m_channel_config).axis_number ) goto g4; else goto g12; at line 64
+	and the statement (*this).m_is_axis_positive[i] = 0; at line 73
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 0; at line 73
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_axis_distance[i] = temp_dist; at line 68
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_is_axis_positive;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::ComputeGeometry()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:64-80
+	for the statement if ( i < (*(*this).m_channel_config).axis_number ) goto g4; else goto g12; at line 64
+	and the statement (*this).m_is_axis_positive[i] = 1; at line 69
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*this).m_is_axis_positive[i];
+	do not access the same object in memory.
+
+There are 24 memory accesses with 111 dependences.
+
+
+==============================================================================
+
+extern char _ZN22QuickMoveInterpolation13HasReachedEndEv() is called from 0 sites in this file.
+    It appears to be inlineable (size = 96 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function QuickMoveInterpolation::HasReachedEnd()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:85-98
+	for the statement (*this).m_axis_distance[i] = 0.0; at line 95
+	and the statement (*(*v$5).end_data).axis_mov_data.mask = (*(*v$5).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 94
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_axis_distance;
+	and                    (*v$5).end_data;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::HasReachedEnd()() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:85-98
+	for the statement v$3 = (*this).m_channel_config; at line 95
+	and the statement (*(*v$5).end_data).axis_mov_data.mask = (*(*v$5).end_data).axis_mov_data.mask&(1uLL<<i^0xffffffffffffffffuLL); at line 94
+
+	Consider declaring 'this' as struct uickMoveInterpolation * const restrict this
+	to assert that lvalues (*this).m_channel_config;
+	and                    (*v$5).end_data;
+	do not access the same object in memory.
+
+There are 19 memory accesses with 62 dependences.
+
+
+==============================================================================
+
+extern int _ZN22QuickMoveInterpolation12PlanVelocityEddb() is called from 0 sites in this file.
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+There are 38 memory accesses with 172 dependences.
+
+
+==============================================================================
+
+extern void _ZN22QuickMoveInterpolation11InterpolateEP8LineData() is called from 0 sites in this file.
+    It appears to be inlineable (size = 271 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	QuickMoveInterpolation::ComputePosition() (1 times)
+	QuickMoveInterpolation::ComputeRemainDistance() (1 times)
+	QuickMoveInterpolation::ComputePosition() (1 times)
+	QuickMoveInterpolation::ValidateDynamic() (1 times)
+	QuickMoveInterpolation::Interpolate() (1 times)
+	QuickMoveInterpolation::PlanVelocity() (1 times)
+	QuickMoveInterpolation::HasReachedEnd() (1 times)
+	QuickMoveInterpolation::ComputeGeometry() (1 times)
+	QuickMoveInterpolation::IsInterpolationFinished() (1 times)
+	QuickMoveInterpolation::GetCurrentSpeed() (1 times)
+	QuickMoveInterpolation::Init() (1 times)
+	QuickMoveInterpolation::~QuickMoveInterpolation [deleting]() (1 times)
+	QuickMoveInterpolation::~QuickMoveInterpolation() (1 times)
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_step = (*v$1[i]).current_step+1u; at line 137
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$4[i]).current_time = (*v$4[i]).current_time+(*this).__b_22InterpolationAlgorithm.m_interpolation_cycle; at line 138
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$4[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_l = (*(double (*)())(*v$2).__vptr[1])(v$2, v$1[i]); at line 140
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_l = (*(double (*)())(*v$2).__vptr[1])(v$2, v$1[i]); at line 140
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    (*v$2).__vptr[1];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement if ( (*v$4[i]).current_l < 0.0 ) goto g10; else goto g9; at line 142
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$4[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_l = 0.0; at line 143
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement if ( speed < ((double *)data)[i+311] ) goto g18; else goto g17; at line 151
+	and the statement (*v$1[i]).current_l = 0.0; at line 143
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement current_l = (*v$1[i]).current_l; at line 146
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_f = (*(double (*)())*(*v$2).__vptr)(v$2, v$1[i]); at line 149
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement (*v$1[i]).current_f = (*(double (*)())*(*v$2).__vptr)(v$2, v$1[i]); at line 149
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    *(*v$2).__vptr;
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement if ( speed < ((double *)data)[i+311] ) goto g18; else goto g17; at line 151
+	and the statement (*v$1[i]).current_f = (*(double (*)())*(*v$2).__vptr)(v$2, v$1[i]); at line 149
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement speed = ((double *)data)[i+311]; at line 153
+	and the statement (*v$1[i]).current_f = (*(double (*)())*(*v$2).__vptr)(v$2, v$1[i]); at line 149
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$1[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$4[i];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement if ( (*((struct CCCTAxisConfig **)v$5)[i+1974]).axis_type != 2 ) goto g16; else goto g15; at line 151
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    ((struct CCCTAxisConfig **)v$5)[i+1974];
+	do not access the same object in memory.
+
+ADVICE: In function QuickMoveInterpolation::Interpolate(LineData *)() in ../src/interpolation/quick_move_interpolation.cpp
+	in the 'for' loop at lines ../src/interpolation/quick_move_interpolation.cpp:134-162
+	for the statement ((double *)data)[i+311] = (*v$4[i]).current_f; at line 150
+	and the statement if ( (*v$4[i]).current_step == (*v$4[i]).step_number ) goto g21; else goto g20; at line 155
+
+	Consider declaring 'data' as struct ineData * const restrict data
+	to assert that lvalues ((double *)data)[i+311];
+	and                    v$4[i];
+	do not access the same object in memory.
+
+There are 54 memory accesses with 262 dependences.
+
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==
